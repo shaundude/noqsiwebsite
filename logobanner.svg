@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet type="text/css" href="http://fonts.googleapis.com/css?family=Comfortaa" ?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2920px"
+	 height="750px" preserveAspectRatio="xMinYMin meet" viewBox="0 0 2920 750" enable-background="new 0 0 2920 750" xml:space="preserve">
+<g id="Bottom_jet">
+	<path d="M971.143,380.08c-61.482,34.512-166.975,121.449-199.389,164.269c-16.043,21.192-68.398,63.908-25.165,166.763
+		c29.119,54.379,115.371-12.715,88.806-63.423c-30.252-57.748,63.529-167.876,166.045-241.39"/>
+</g>
+<g id="Top_jet">
+	<path d="M1060.595,312.615C1225.5,183.938,1262.408,114.969,1310.612,75.46c35.998-29.505,71.558-69.037,110.09-33.496
+		c38.532,35.54-3.997,67.99-37.566,94.096c-63.636,49.488-127.636,66.44-302.36,208.51"/>
+</g>
+<g id="Center">
+	<circle cx="1022.518" cy="359.5" r="22.5"/>
+</g>
+<g id="Swirl">
+	<path fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" d="M927.041,567.688
+		C698.135,347.911,706.065,121.12,771.65,66.835c69.681-57.676,178.371-16.162,309.186,123.219
+		c138.985,148.085,199.692,326.839,147.292,388.656c-41.92,49.453-162.643-9.574-269.644-131.843
+		c-85.6-97.813-127.805-209.175-94.268-248.739c26.829-31.649,104.093,6.128,172.572,84.378
+		c54.783,62.601,81.796,133.874,60.333,159.192c-17.175,20.257-66.62-3.922-110.447-54.002
+		c-35.063-40.064-52.35-85.678-38.612-101.882c10.988-12.963,42.635,2.508,70.685,34.56"/>
+</g>
+<g id="Aerospace">
+	<text transform="matrix(1 0 0 1 1246 389.3115)" font-family="'Comfortaa'" font-size="230.1698">Aerospace Ltd</text>
+</g>
+<g id="Noqsi">
+	<text transform="matrix(1 0 0 1 23.0601 396.7246)" font-family="'Comfortaa'" font-size="254.2191">Noqsi</text>
+	<line fill="none" x1="2458" y1="392.292" x2="-352" y2="392.292"/>
+</g>
+</svg>
