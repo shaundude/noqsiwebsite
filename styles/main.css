@@ -1,5 +1,8 @@
 body {
       background-color:#828282;
+      font-family: 'Comfortaa';
+      font-size: 24px;
+      text-shadow: 4px 4px 4px #aaa;
     }
     img.center {   display: block;   margin-left: auto;   margin-right: auto; }
     h3.pos_left
@@ -45,4 +48,7 @@ object.center
     display: inline-block;
     font-size: 0;
     line-height: 0
+}
+.foreground {
+    color: #FFFFFF;
 }
