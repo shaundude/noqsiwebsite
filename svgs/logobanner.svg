@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <?xml-stylesheet type="text/css" href="http://fonts.googleapis.com/css?family=Comfortaa" ?>
+<?xml-stylesheet type="text/css" href="/styles/main.css" ?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2920px"
 	 height="750px" preserveAspectRatio="xMinYMin meet" viewBox="0 0 2920 750" enable-background="new 0 0 2920 750" xml:space="preserve">
 <g id="Bottom_jet">
@@ -16,7 +16,7 @@
 	<circle cx="1022.518" cy="359.5" r="22.5"/>
 </g>
 <g id="Swirl">
-	<path fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" d="M927.041,567.688
+	<path fill="none" stroke-width="20" stroke-miterlimit="10" d="M927.041,567.688
 		C698.135,347.911,706.065,121.12,771.65,66.835c69.681-57.676,178.371-16.162,309.186,123.219
 		c138.985,148.085,199.692,326.839,147.292,388.656c-41.92,49.453-162.643-9.574-269.644-131.843
 		c-85.6-97.813-127.805-209.175-94.268-248.739c26.829-31.649,104.093,6.128,172.572,84.378
@@ -28,6 +28,5 @@
 </g>
 <g id="Noqsi">
 	<text transform="matrix(1 0 0 1 23.0601 396.7246)" font-family="'Comfortaa'" font-size="254.2191">Noqsi</text>
-	<line fill="none" x1="2458" y1="392.292" x2="-352" y2="392.292"/>
 </g>
 </svg>

@@ -23,6 +23,11 @@ object.center
    margin-right: auto; 
 }
 
+svg {
+  stroke: white;
+  fill: white;
+}
+
 #navbar {
     //height: 125px;
 
