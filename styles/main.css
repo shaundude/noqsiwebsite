@@ -36,7 +36,7 @@ body {
     min-width: 612px;
 }
 
-.navitem {
+#navbar > div {
     height: 80px;
     vertical-align: center;
     display: inline-block;
@@ -44,7 +44,7 @@ body {
     zoom: 1;
 }
 
-.stretch {
+#navbar > span {
     width: 100%;
     display: inline-block;
     font-size: 0;
