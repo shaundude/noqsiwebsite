@@ -1,39 +1,22 @@
+/********* Master Color/Font Settings *********/
+
 svg {
-  stroke: white;
-  fill: white;
+  stroke: black;
+  fill: black;
 }
 
 body {
-      color: white;
+      color: black;
       background-color: #828282;
+      /* Needs Comfortaa loaded from Google Font API */
       font-family: 'Comfortaa';
       font-size: 24px;
       text-shadow: 4px 4px 4px #aaa;
     }
 
-    img.center {   display: block;   margin-left: auto;   margin-right: auto; }
-    h3.pos_left
-  {
-  position:absolute;
-  left:15%;
-  }
-  h3.pos_right
-  {
-  position:absolute;
-  left:20px;
-  }
-
-object.center
-   {
-   display: block;
-   margin-left: auto;
-   margin-right: auto; 
-}
-
+.center {   display: block;   margin-left: auto;   margin-right: auto; }
 
 #navbar {
-    //height: 125px;
-
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
@@ -43,19 +26,16 @@ object.center
 }
 
 .navitem {
-    //width: 150px;
     height: 80px;
     vertical-align: center;
     display: inline-block;
     *display: inline;
-    zoom: 1
+    zoom: 1;
 }
 
 .stretch {
     width: 100%;
     display: inline-block;
     font-size: 0;
-    line-height: 0
+    line-height: 0;
 }
-
-
