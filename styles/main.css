@@ -14,6 +14,17 @@ body {
       text-shadow: 4px 4px 4px #aaa;
     }
 
+#content {
+  color : cyan;
+  fill : white;
+}
+
+/* FIXME : Figure out how to specify SVG styles from top level instead of within the SVG file */
+#content svg {
+  stroke: white;
+  fill: white;
+}
+
 .center {   display: block;   margin-left: auto;   margin-right: auto; }
 
 #navbar {
