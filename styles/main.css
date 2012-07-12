@@ -50,3 +50,6 @@ body {
     font-size: 0;
     line-height: 0;
 }
+#navbar > div:hover {
+    text-decoration:underline
+}
