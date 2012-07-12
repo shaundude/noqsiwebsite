@@ -2,21 +2,25 @@
 
 <html>
 <head>
-  <link rel=stylesheet href="/styles/main.css" type="text/css" href="http://fonts.googleapis.com/css?family=Comfortaa" media=screen>
+  <!-- Link to the Google Font API for Comfortaa Font -->
+  <link rel=stylesheet type="text/css" href="http://fonts.googleapis.com/css?family=Comfortaa" media=screen>
+  <!-- Link to our own house CSS -->
+  <link rel=stylesheet type="text/css" href="/styles/main.css" media=screen>
   <title>Noqsi Aerospace</title>
 </head>
 
 <body>
 
   <object class="center" data="/svgs/logobanner.svg" width="700" type="image/svg+xml"></object>
+  <div id="content">
   <object class="center" data="/svgs/AH_logo_silo.svg" width="700" type="image/svg+xml"></object>
-  <!-- <img src="crab_nebula.jpeg" alt="crab nebula" class="center"> -->
+  </div>
   <div id="navbar">
     <div class="navitem"></div>
-    <div class="navitem">Current Work</div>
-    <div class="navitem">Previous Work</div>
-    <div class="navitem">About Us</div>
-    <div class="navitem"></div>
+    <div id="current" onclick="console.log(this.id)">Current Work</div>
+    <div>Previous Work</div>
+    <div>About Us</div>
+    <div></div>
     <span class="stretch"></span>
   </div>
 </body>
