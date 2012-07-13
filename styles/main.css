@@ -1,4 +1,7 @@
 /********* Master Color/Font Settings *********/
+html, body {
+  height: 100%;
+}
 
 svg {
   stroke: black;
@@ -10,13 +13,12 @@ body {
       background-color: #828282;
       /* Needs Comfortaa loaded from Google Font API */
       font-family: 'Comfortaa';
-      font-size: 24px;
-      text-shadow: 4px 4px 4px #aaa;
     }
 
 #content {
-  color : cyan;
-  fill : white;
+  color : black;
+  fill : black;
+  text-align: center
 }
 
 /* FIXME : Figure out how to specify SVG styles from top level instead of within the SVG file */
@@ -31,8 +33,6 @@ body {
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-
-    /* just for demo */
     min-width: 612px;
 }
 
@@ -42,6 +42,8 @@ body {
     display: inline-block;
     *display: inline;
     zoom: 1;
+    font-size: 24px;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 #navbar > span {
