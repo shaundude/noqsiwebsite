@@ -11,11 +11,15 @@
 </head>
 
 <body>
-
-  <object class="center" data="/svgs/logobanner.svg" width="700" type="image/svg+xml"></object>
-  <div id="content">
+  <div id="wrap">
+    <object class="center" data="/svgs/logobanner.svg" width="700" type="image/svg+xml"></object>
+    <div id="main">
+      <div id="content">
   <object class="center" data="/svgs/AH_logo_silo.svg" width="700" type="image/svg+xml"></object>
   </div>
+  </div>
+  </div>
+  <div id="footer">
   <div id="navbar">
     <div class="navitem"></div>
     <div id="current" onclick='$("#content").load(this.id + ".html");'>Current Work</div>
@@ -23,6 +27,7 @@
     <div>About Us</div>
     <div></div>
     <span class="stretch"></span>
+  </div>
   </div>
 </body>
 </html>

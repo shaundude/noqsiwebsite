@@ -1,7 +1,17 @@
 /********* Master Color/Font Settings *********/
+* {margin:0;padding:0;} 
+
 html, body {
   height: 100%;
 }
+#wrap {
+  min-height: 100%;
+}
+#main {
+  overflow:auto;
+  padding-bottom: 100px;
+}  /* must be same height as the footer */
+
 
 svg {
   stroke: black;
@@ -13,7 +23,7 @@ body {
       background-color: #828282;
       /* Needs Comfortaa loaded from Google Font API */
       font-family: 'Comfortaa';
-    }
+}
 
 #content {
   color : black;
@@ -29,6 +39,11 @@ body {
 
 .center {   display: block;   margin-left: auto;   margin-right: auto; }
 
+#footer {position: relative;
+	margin-top: -100px; /* negative value of footer height */
+	height: 150px;
+	clear:both;} 
+
 #navbar {
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
@@ -37,7 +52,7 @@ body {
 }
 
 #navbar > div {
-    height: 80px;
+    height: 20px;
     vertical-align: center;
     display: inline-block;
     *display: inline;
