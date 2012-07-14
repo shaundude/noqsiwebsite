@@ -1,7 +1,10 @@
-/********* Master Color/Font Settings *********/
+/********* Load Comforta Font from Google API **********/
+@import "http://fonts.googleapis.com/css?family=Comfortaa";
+
+/********* Top-Level Color/Font Settings *********/
 svg {
-  stroke: black;
-  fill: black;
+  stroke: white;
+  fill: white;
 }
 
 body {
@@ -13,7 +16,6 @@ body {
 
 #content {
   color : black;
-  fill : black;
   text-align: center
 }
 
