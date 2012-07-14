@@ -6,3 +6,10 @@
 • Make back and forward work on a page with a non changing url
 • Make svg for HETE 2
 • Set up website hosting with Heroku https://devcenter.heroku.com/articles/nodejs
+• Check on the following platforms:
+	• Safari (OS X, Windows, iPad)
+	• Chrome (OS X, Windows, Linux, iPad)
+	• Firefox (OS X, Windows, Linux, Android)
+	• IE (OS X, Windows) (versions???)
+	• Android Browser
+	• Opera (OS X, Windows, Android, iPad)
