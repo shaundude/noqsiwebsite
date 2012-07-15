@@ -3,8 +3,8 @@
 
 /********* Top-Level Color/Font Settings *********/
 svg {
-  stroke: white;
-  fill: white;
+  stroke: cyan;
+  fill: cyan;
 }
 
 body {
@@ -19,13 +19,7 @@ body {
   text-align: center
 }
 
-/* FIXME : Figure out how to specify SVG styles from top level instead of within the SVG file */
-#content svg {
-  stroke: white;
-  fill: white;
-}
-
-.center {   display: block;   margin-left: auto;   margin-right: auto; }
+.center {  margin-left: auto;   margin-right: auto; }
 
 /************** Styles for the Navbar footer *************/
 * {margin:0;padding:0;} 

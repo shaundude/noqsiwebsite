@@ -1,16 +1,19 @@
-// Make sure jQuery is loaded!
+// Make sure jQuery and svg are loaded!
 // TODO: maybe use this hack? http://neighborhood.org/core/sample/jquery/append-to-head.htm 
 
-
-// Top level CSS controls
-$(window).load(function() {
-	var svgDoc = document.getElementById("logo").contentDocument;
-	console.log(svgDoc.documentElement);
-	//var styleElement = svgDoc.createElementNS("http://www.w3.org/1999/xhtml", "link");
-	//styleElement.setAttribute("href", "/styles/main.css");
-	//styleElement.setAttribute("type", "text/css");
-	//styleElement.setAttribute("media", "screen");
-	//styleElement.setAttribute("rel", "stylesheet");
-	//svgDoc.documentElement.appendChild(styleElement);
-	//svgDoc.getElementsByTagName('svg')[0].appendChild(linkElm);
-});
+// Hack to control style of included SVGs at Top Level - requires SVGWeb
+window.onsvgload = function() {
+	var svgNS = "http://www.w3.org/2000/svg";
+	var svgs = document.getElementsByTagName("object");
+	console.log(svgs);	
+	for (var i in svgs) {
+		svgDoc = svgs[i].contentDocument;
+		var styleElement = svgDoc.createElementNS(svgNS, "style");
+		styleElement.textContent = "@import url('/styles/master.css')";
+		svgDoc.documentElement.appendChild(styleElement);
+	}
+//	$('object').each( function(idx) { 
+//		var svgDoc = $(this)[0].contentDocument; 
+//		var styleElement = svgDoc.createElementNS(svgNS, "style");
+//	});
+};

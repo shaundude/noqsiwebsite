@@ -1,0 +1,8 @@
+/********* Load Comforta Font from Google API **********/
+@import "http://fonts.googleapis.com/css?family=Comfortaa";
+
+/********* Top-Level Color/Font Settings *********/
+svg {
+  stroke: cyan;
+  fill: cyan;
+}
