@@ -1,8 +1,15 @@
-/********* Load Comforta Font from Google API **********/
-@import "http://fonts.googleapis.com/css?family=Comfortaa";
+/********* Load Comforta Font from Google API **********/ 
+@import url("//fonts.googleapis.com/css?family=Comfortaa");
 
 /********* Top-Level Color/Font Settings *********/
 svg {
   stroke: cyan;
   fill: cyan;
+}
+
+body {
+	color: cyan;
+	background-color: #828282;
+	/* Needs Comfortaa loaded from Google Font API */
+	font-family: 'Comfortaa';
 }

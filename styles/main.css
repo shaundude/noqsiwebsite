@@ -1,74 +1,19 @@
-/********* Load Comforta Font from Google API **********/
-@import "http://fonts.googleapis.com/css?family=Comfortaa";
-
 /********* Top-Level Color/Font Settings *********/
+@import url("/styles/master.css");
+
+/********* Footer Style *********/
+@import url("/styles/footer.css");
+
 svg {
   stroke: cyan;
   fill: cyan;
 }
 
-body {
-      color: black;
-      background-color: #828282;
-      /* Needs Comfortaa loaded from Google Font API */
-      font-family: 'Comfortaa';
-}
-
 #content {
   color : black;
-  text-align: center
+  text-align: center;
 }
 
-.center {  margin-left: auto;   margin-right: auto; }
-
-/************** Styles for the Navbar footer *************/
-* {margin:0;padding:0;} 
-
-html, body {
-  height: 100%;
+.center {
+	text-align : center;
 }
-
-#wrap {
-  min-height: 100%;
-}
-
-#main {
-  overflow:auto;
-  padding-bottom: 100px;
-}  /* must be same height as the footer */
-
-#navbar {
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
-    min-width: 612px;
-    position: relative;
-	margin-top: -100px; /* negative value of footer height */
-	height: 150px;
-	clear:both;
-}
-
-#navbar > div {
-    height: 20px;
-    vertical-align: center;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    font-size: 24px;
-    text-shadow: 4px 4px 4px #aaa;
-}
-
-#navbar > div:hover {
-    text-decoration:underline;
-}
-
-#navbar > span {
-    width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0;
-}
-#column {
-  margin-right: 20px;
-  display: inline;
-  }
