@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1698px"
-	 height="664px" viewBox="0 0 1698 664" enable-background="new 0 0 1698 664" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                   xmlns:xlink="http://www.w3.org/1999/xlink" 
+                   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                   class="logo"
+                   x="0px" 
+                   y="0px" 
+                   width="1698px"
+	           height="664px" 
+	           viewBox="0 0 1698 664" 
+	           enable-background="new 0 0 1698 664" xml:space="preserve">
+<xhtml:link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css"/>
+<xhtml:link href="/styles/master.css" rel="stylesheet" type="text/css"/>
 <g id="Bottom_jet">
 	<path d="M1083.777,244.939c-37.691,21.156-102.362,74.453-122.234,100.703c-9.835,12.992-41.931,39.178-15.427,102.232
 		c17.851,33.336,70.727-7.795,54.442-38.881c-18.546-35.402,38.946-102.916,101.792-147.982"/>

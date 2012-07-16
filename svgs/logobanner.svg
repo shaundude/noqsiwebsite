@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2920px"
-	 height="750px" preserveAspectRatio="xMinYMin meet" viewBox="0 0 2920 750" enable-background="new 0 0 2920 750" xml:space="preserve" stroke="black">
-<style>"@import url('http://fonts.googleapis.com/css?family=Comfortaa');"</style>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+                   xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                   x="0px" 
+                   y="0px" 
+                   width="2920px"
+	           height="750px" 
+	           preserveAspectRatio="xMinYMin meet" 
+	           viewBox="0 0 2920 750" 
+	           enable-background="new 0 0 2920 750" 
+	           xml:space="preserve" 
+	           stroke="black">
+<xhtml:link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css"/>
+<xhtml:link href="/styles/master.css" rel="stylesheet" type="text/css"/>
 <g id="Bottom_jet">
 	<path d="M971.143,380.08c-61.482,34.512-166.975,121.449-199.389,164.269c-16.043,21.192-68.398,63.908-25.165,166.763
 		c29.119,54.379,115.371-12.715,88.806-63.423c-30.252-57.748,63.529-167.876,166.045-241.39"/>
