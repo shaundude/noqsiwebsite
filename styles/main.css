@@ -1,4 +1,7 @@
-/********* Top-Level Color/Font Settings *********/
+/********* Load Comforta Font from Google API **********/
+@import url("//fonts.googleapis.com/css?family=Comfortaa");
+
+/********* Top-Level Color Settings *********/
 @import url("/styles/master.css");
 
 /********* Footer Style *********/
@@ -7,6 +10,11 @@
 svg {
   stroke: cyan;
   fill: cyan;
+}
+
+body {
+	/* Needs Comfortaa loaded from Google Font API */
+	font-family: 'Comfortaa';
 }
 
 #content {
