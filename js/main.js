@@ -18,11 +18,13 @@ var updateSVGs = function(element, styleFile) {
 }
 
 var updateContent = function (id) { 
-	$("#content").load(id + ".html", function () { 
-		updateSVGs(document,'/styles/master.css'); 
-	});
+	$('#content').load('/content/' + id + '.html');
 }
 
 window.addEventListener('SVGLoad', function () { 
 	updateSVGs(document,'/styles/master.css'); 
+});
+
+$(window).ready( function () {
+  $("#navbar").load('/navbar.html');
 });
