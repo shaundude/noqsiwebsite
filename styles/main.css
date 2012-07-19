@@ -62,13 +62,25 @@ div#content {
   background-color:#444482;
 }
 
+/* Navbar Content */
+
 div#navbar {
-        width: 16%;
+    width: 16%;
 	float: left;
 	margin: 0;
 	padding: 0;
 	padding-left: 2%;
 	padding-right: 2.15%;
-        background-color:#448244;
+    background-color:#448244;
 	color : white;
+}
+
+div#navbar > div {
+    font-size: 12px;
+    padding : 5px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+div#navbar > div:hover {
+    text-decoration:underline;
 }
