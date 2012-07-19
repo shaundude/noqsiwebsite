@@ -3,25 +3,72 @@
 
 /********* Top-Level Color Settings *********/
 @import url("/styles/master.css");
-
-/********* Footer Style *********/
-@import url("/styles/footer.css");
-
-svg {
-  stroke: cyan;
-  fill: cyan;
+html {
 }
 
 body {
-	/* Needs Comfortaa loaded from Google Font API */
-	font-family: 'Comfortaa';
+    /* Needs Comfortaa loaded from Google Font API */
+    font-family: 'Comfortaa';
+    padding: 0 0 0 0;
 }
 
-#content {
-  color : black;
-  text-align: center;
+img.svg {
+	display : none ; 
 }
 
-.center {
-	text-align : center;
+.safari img.svg { 
+	display : block ;
+}
+
+.safari object.svg { 
+	display : none ;
+}
+
+div#outer {
+    width: 500pt;
+    background-color : #828282;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.center {
+    text-align : center;
+}
+
+div#logo {
+    background-color : #824444;
+    padding-top : 5pt;
+    margin-left: auto;
+    margin-right: auto;
+    text-align : center;
+    height : 65pt;
+} 
+
+object.logobanner {
+     width : 50%;
+}
+
+img.logobanner {
+    margin-left: auto;
+    margin-right: auto;
+    width : 50%;
+}
+
+div#content {
+  margin-left: 20%;
+  margin-right: 0%;
+  color : cyan;
+  background-color:#444482;
+}
+
+div#navbar {
+        width: 16%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding-left: 2%;
+	padding-right: 2.15%;
+        background-color:#448244;
+	color : white;
 }

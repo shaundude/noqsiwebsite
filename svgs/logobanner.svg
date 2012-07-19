@@ -13,6 +13,7 @@
 	           xml:space="preserve" 
 	           stroke="black">
 <xhtml:link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css"/>
+<xhtml:link href="http://127.0.0.1:8125/styles/master.css" rel="stylesheet" type="text/css"/>
 <xhtml:link href="/styles/master.css" rel="stylesheet" type="text/css"/>
 <g id="Bottom_jet">
 	<path d="M971.143,380.08c-61.482,34.512-166.975,121.449-199.389,164.269c-16.043,21.192-68.398,63.908-25.165,166.763

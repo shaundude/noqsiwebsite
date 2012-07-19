@@ -7,10 +7,10 @@
                    class="logo"
                    x="0px" 
                    y="0px" 
-                   width="1698px"
-	           height="664px" 
 	           viewBox="0 0 1698 664" 
-	           enable-background="new 0 0 1698 664" xml:space="preserve">
+	           enable-background="new 0 0 1698 664"
+	           xml:space="preserve"
+	           stroke="black">
 <xhtml:link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css"/>
 <xhtml:link href="/styles/master.css" rel="stylesheet" type="text/css"/>
 <g id="Bottom_jet">
@@ -25,7 +25,7 @@
 	<circle cx="1115.272" cy="232.322" r="13.793"/>
 </g>
 <g id="Swirl">
-	<path fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" d="M1056.741,359.951
+	<path fill="none" stroke-width="20" stroke-miterlimit="10" d="M1056.741,359.951
 		C916.412,225.219,921.273,86.185,961.48,52.905c42.717-35.358,109.349-9.907,189.544,75.539
 		c85.204,90.782,122.42,200.366,90.296,238.263c-25.698,30.316-99.707-5.869-165.303-80.824
 		c-52.477-59.965-78.35-128.234-57.79-152.489c16.447-19.401,63.813,3.758,105.794,51.729
@@ -37,7 +37,6 @@
 </g>
 <g id="Noqsi">
 	<text transform="matrix(1 0 0 1 229.0601 426.7246)" font-family="'Comfortaa'" font-size="254.2191">Noqsi</text>
-	<line fill="none" x1="2664" y1="312.292" x2="-146" y2="312.292"/>
 </g>
 <g id="Star" display="none">
 	<polygon display="inline" points="918.185,245.5 902.543,260.378 905.933,281.698 886.948,271.421 867.72,281.231 871.628,260.001 
