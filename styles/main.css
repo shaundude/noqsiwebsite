@@ -4,6 +4,12 @@
 /********* Top-Level Color Settings *********/
 @import url("/styles/master.css");
 
+/* Reset the padding and margins to 0 */
+* {
+    padding: 0px;
+    margin: 0px
+}
+
 html {
 	min-height:100%;
 	position:relative;
