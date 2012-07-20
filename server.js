@@ -1,6 +1,8 @@
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
+
+var port = 80;
  
 http.createServer(function (request, response) {
  
@@ -43,6 +45,6 @@ http.createServer(function (request, response) {
         }
     });
      
-}).listen(8000);
+}).listen(port);
  
-console.log('Server running at http://127.0.0.1:8000/');
+console.log('Server running at http://127.0.0.1:' + port + '/');
