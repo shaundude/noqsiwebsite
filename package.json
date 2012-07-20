@@ -5,7 +5,7 @@
   "author": "Shaun Oyakawa <shaundude@hotmail.com>",
   "dependencies": {
     "express": "2.5.x",
-    "zlib" : "1.0.5";
+    "zlib" : "1.0.x";
   },
   "engines": {
     "node": "0.4.7"
