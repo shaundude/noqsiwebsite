@@ -4,7 +4,6 @@ var path = require('path');
  
 http.createServer(function (request, response) {
  
-    console.log('request starting...');
      
     var filePath = '.' + request.url;
     if (filePath == './')
