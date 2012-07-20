@@ -1,7 +1,5 @@
-• Touch up doty_sensei.svg and TESS.svg
 • Comment CSS
 	• Maybe find a tidying program
-• Make svg for HETE 2
 • Set up website hosting with Heroku https://devcenter.heroku.com/articles/nodejs
 • Check on the following platforms:
 	• Safari (OS X, Windows, iPad)
