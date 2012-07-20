@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "A website for Noqsi Aerospace, Ltd",
   "author": "Shaun Oyakawa <shaundude@hotmail.com>",
-  "dependencies": {
-  },
   "engines": {
-    "node": "0.8.1"
+    "node": "0.8.0"
   }
 }
