@@ -4,6 +4,6 @@
   "description": "A website for Noqsi Aerospace, Ltd",
   "author": "Shaun Oyakawa <shaundude@hotmail.com>",
   "engines": {
-    "node": "0.8.0"
+    "node": "0.4.7"
   }
 }
