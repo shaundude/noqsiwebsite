@@ -1,8 +1,8 @@
-var http = require('http');
+var http = require('express');
 var fs = require('fs');
 var path = require('path');
 
-var port = 80;
+var port = process.env.PORT || 5000;
  
 http.createServer(function (request, response) {
  
