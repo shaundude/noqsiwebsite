@@ -84,18 +84,32 @@ div#navbar {
     width: 16%;
     margin: 0;
     padding: 0;
-    padding-left: 2%;
-    padding-right: 2.1%;
+    padding-left: 3%;
+    padding-right: 1.1%;
     background-color:#448244;
+}
+
+div#navbar ul {
+    list-style-type: none;
+    padding : 0px;
     color : white;
 }
 
-div#navbar > div {
-    font-size: 12px;
-    padding : 5px;
-    text-shadow: 4px 4px 4px #aaa;
+div#navbar ul > ul {
+	margin-left : 10px;
 }
 
-div#navbar > div:hover {
+div#navbar a {
+    color : white;
+    font-size: 10px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-decoration: none;
+}
+
+div#navbar a.selected {
+    text-decoration:underline;
+}
+
+div#navbar a:hover {
     text-decoration:underline;
 }
