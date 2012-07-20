@@ -3,15 +3,19 @@
 
 /********* Top-Level Color Settings *********/
 @import url("/styles/master.css");
+
 html {
+	min-height:100%;
+	position:relative;
 }
 
 body {
     /* Needs Comfortaa loaded from Google Font API */
     font-family: 'Comfortaa';
-    padding: 0 0 0 0;
+    height:100%;
 }
 
+/* Hacks to make Safari display correctly */
 img.svg {
 	display : none ; 
 }
@@ -24,16 +28,25 @@ img.svg {
 	display : none ;
 }
 
+/* Main layout */
 div#outer {
     width: 500pt;
     background-color : #828282;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-1;
 }
 
-div.center {
+.center {
     text-align : center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div#logo {
@@ -55,24 +68,28 @@ img.logobanner {
     width : 50%;
 }
 
+div#main{
+    height : 100%;
+}
+
 div#content {
-  margin-left: 20%;
-  margin-right: 0%;
-  color : cyan;
+  color : lime;
   background-color:#444482;
+  margin-left : 20%;
+  /* overflow : scroll; */
 }
 
 /* Navbar Content */
-
 div#navbar {
+    float : left ; 
+    display: inline;
     width: 16%;
-	float: left;
-	margin: 0;
-	padding: 0;
-	padding-left: 2%;
-	padding-right: 2.15%;
+    margin: 0;
+    padding: 0;
+    padding-left: 2%;
+    padding-right: 2.1%;
     background-color:#448244;
-	color : white;
+    color : white;
 }
 
 div#navbar > div {

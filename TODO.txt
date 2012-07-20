@@ -1,9 +1,6 @@
 • Touch up doty_sensei.svg and TESS.svg
 • Comment CSS
 	• Maybe find a tidying program
-• Figure out how to specify at top level descendent SVG styles in CSS
-• Factor out style sheets so HTML styles aren't included in SVGs
-• Make back and forward work on a page with a non changing url
 • Make svg for HETE 2
 • Set up website hosting with Heroku https://devcenter.heroku.com/articles/nodejs
 • Check on the following platforms:

@@ -11,7 +11,7 @@
      width="468"
      height="283"
      preserveAspectRatio="xMidYMid" >
-<xhtml:link href="http://127.0.0.1:8125/styles/svg-content.css" rel="stylesheet" type="text/css"/>
+<xhtml:link href="/styles/svg-content.css" rel="stylesheet" type="text/css"/>
 <g transform="translate(0,283) scale(0.039328,-0.039328)" stroke="none">
 <path d="M6935 7084 c-55 -53 -252 -236 -438 -407 -185 -172 -336 -316 -334
 -322 2 -5 17 -17 33 -25 16 -8 51 -29 79 -46 27 -16 58 -33 67 -37 9 -3 36
