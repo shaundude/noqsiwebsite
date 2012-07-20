@@ -4,7 +4,8 @@
   "description": "A website for Noqsi Aerospace, Ltd",
   "author": "Shaun Oyakawa <shaundude@hotmail.com>",
   "dependencies": {
-    "express": "2.5.x"
+    "express": "2.5.x",
+    "zlib" : "1.0.5";
   },
   "engines": {
     "node": "0.4.7"
