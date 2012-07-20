@@ -69,7 +69,6 @@ img.logobanner {
 }
 
 div#main{
-    height : 100%;
 }
 
 div#content {
@@ -82,7 +81,6 @@ div#content {
 /* Navbar Content */
 div#navbar {
     float : left ; 
-    display: inline;
     width: 16%;
     margin: 0;
     padding: 0;
